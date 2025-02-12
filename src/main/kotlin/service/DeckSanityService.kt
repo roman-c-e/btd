@@ -1,3 +1,5 @@
+package service
+
 import entity.Card
 
 class DeckSanityService {

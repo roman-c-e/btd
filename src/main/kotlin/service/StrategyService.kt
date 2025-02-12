@@ -1,7 +1,8 @@
+package service
+
 import entity.Player
 
 class StrategyService {
-
 
     fun hasBlackJack(player: Player): Boolean {
         return player.getScore() == 21

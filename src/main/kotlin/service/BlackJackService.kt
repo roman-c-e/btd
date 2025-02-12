@@ -1,3 +1,5 @@
+package service
+
 import entity.Deck
 import entity.Player
 import kotlin.system.exitProcess

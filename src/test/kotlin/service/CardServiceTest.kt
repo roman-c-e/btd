@@ -1,3 +1,5 @@
+package service
+
 import entity.CardSuit
 import entity.CardValue
 import org.junit.jupiter.api.Assertions.*

@@ -1,6 +1,6 @@
 package com.zivue
 
-import BlackJackService
+import service.BlackJackService
 import kotlin.system.exitProcess
 
 fun main(args: Array<String>) {

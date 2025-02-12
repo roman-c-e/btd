@@ -1,6 +1,6 @@
 package entity
 
-import DeckService
+import service.DeckService
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
 
