@@ -26,25 +26,25 @@ class CardTest {
     @Test
     fun testHeartsKing() {
         val card = Card(CardSuit.HEARTS, CardValue.KING)
-        assertEquals(10, card.getValue()) // Assuming value of ACE is 11
+        assertEquals(10, card.getValue())
     }
 
     @Test
     fun testHeartsQueen() {
         val card = Card(CardSuit.HEARTS, CardValue.QUEEN)
-        assertEquals(10, card.getValue()) // Assuming value of ACE is 11
+        assertEquals(10, card.getValue())
     }
 
     @Test
     fun testHeartsJack() {
         val card = Card(CardSuit.HEARTS, CardValue.JACK)
-        assertEquals(10, card.getValue()) // Assuming value of ACE is 11
+        assertEquals(10, card.getValue())
     }
 
     @Test
     fun testHearts2() {
         val card = Card(CardSuit.HEARTS, CardValue.TWO)
-        assertEquals(2, card.getValue()) // Assuming value of ACE is 11
+        assertEquals(2, card.getValue())
     }
 
     @Test
